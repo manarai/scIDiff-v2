@@ -58,9 +58,13 @@ Single-cell technologies allow high-resolution interrogation of cellular respons
 ### Installation
 
 ```bash
+# Create conda env
+conda create -n scidiff-v2 python=3.10
+conda activate scidiff-v2
+
 # Clone the repository
 git clone https://github.com/manarai/scIDiff-v2.git
-cd scIDiff
+cd scIDiff-v2
 
 # Install dependencies
 pip install -r requirements.txt
