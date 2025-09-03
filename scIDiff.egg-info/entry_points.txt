@@ -1,0 +1,4 @@
+[console_scripts]
+scidiff-design = scIDiff.cli.design:main
+scidiff-sample = scIDiff.cli.sample:main
+scidiff-train = scIDiff.cli.train:main
