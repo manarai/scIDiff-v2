@@ -494,9 +494,13 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ### Development Setup
 
 ```bash
+# Create conda env
+conda create -n scidiff-v2 python=3.10
+conda activate scidiff-v2
+
 # Clone and install in development mode
 git clone https://github.com/your-username/scIDiff.git
-cd scIDiff
+cd scIDiff-v2
 pip install -e ".[dev]"
 
 # Install pre-commit hooks
