@@ -59,7 +59,7 @@ Single-cell technologies allow high-resolution interrogation of cellular respons
 
 ```bash
 # Clone the repository
-git clone https://github.com/manarai/scIDiff.git
+git clone https://github.com/manarai/scIDiff-v2.git
 cd scIDiff
 
 # Install dependencies
